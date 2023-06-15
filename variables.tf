@@ -16,3 +16,11 @@ variable "ct_home_region" {}
 variable "tf_backend_secondary_region" {}
 
 variable "aws_region" {}
+
+variable "account_customizations_repo_branch" {}
+
+variable "account_provisioning_customizations_repo_branch" {}
+
+variable "account_request_repo_branch" {}
+
+variable "global_customizations_repo_branch" {}

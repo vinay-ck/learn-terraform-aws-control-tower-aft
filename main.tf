@@ -16,4 +16,8 @@ module "aft" {
   account_provisioning_customizations_repo_name = "${var.github_username}/learn-terraform-aft-account-provisioning-customizations"
   global_customizations_repo_name               = "${var.github_username}/learn-terraform-aft-global-customizations"
   account_customizations_repo_name              = "${var.github_username}/learn-terraform-aft-account-customizations"
+  account_customizations_repo_branch            = var.account_customizations_repo_branch
+  account_provisioning_customizations_repo_branch = var.account_provisioning_customizations_repo_branch
+  account_request_repo_branch                   = var.account_request_repo_branch
+  global_customizations_repo_branch             = var.global_customizations_repo_branch
 }

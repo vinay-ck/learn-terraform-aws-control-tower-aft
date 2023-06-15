@@ -9,4 +9,7 @@ github_username             = "vinay-ck"
 ct_home_region              = "ap-southeast-1"
 tf_backend_secondary_region = "ap-southeast-2"
 aws_region                  = "ap-southeast-1"
-
+account_customizations_repo_branch = "aft"
+account_provisioning_customizations_repo_branch = "aft"
+account_request_repo_branch = "aft"
+global_customizations_repo_branch = "aft"
